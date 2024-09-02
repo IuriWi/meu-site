@@ -1,0 +1,225 @@
+/* ESTILOS GERAIS */
+
+* {
+    font-family: "Catamaran", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+header .menu li a {
+    color: #fff;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+h2.titulo-sessao {
+    text-align: center;
+    justify-content: center; 
+    font-size: 30px;
+    color: #fff;
+    background-color: #8200d5;
+    padding: 20px 4%;
+    margin-bottom: 5px;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header {
+    padding: 0px 4%;
+    padding-bottom: 30px;
+}
+
+header .interface h2.logo {
+    font-family: "Ewert", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #8200d5;
+    cursor: pointer;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 40px;
+    font-size: large;
+}
+
+header li a {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header li a:hover {
+    color: #a8a8a8;
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+
+/* ESTILOS DA SESSÃO "SOBRE MIM"*/
+
+section.conteudo-sobre-mim {
+    padding: 120px 4%;
+}
+
+.conteudo-sobre-mim .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.conteudo-sobre-mim .imagem-sobre img {
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.conteudo-sobre-mim .texto h4 {
+    font-size: 40px;
+}
+
+.conteudo-sobre-mim .texto h4 span {
+    color: #8200d5;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.conteudo-sobre-mim .texto p {
+    text-align: justify ;
+    max-width: 928px;
+} 
+
+/* ESTILOS DA SESSÃO "FORMAÇÃO" */
+
+section.formacao {
+    padding: 100px 4%;
+}
+
+.formacao .formacao-box {
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.formacao-box h3 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.formacao-box span {
+    font-weight: bold;
+    color: #8200d5;
+}
+
+.formacao-box .paragrafo1 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 30px;
+}
+
+.formacao-box .paragrafo2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* ESTILOS DO SESSÃO "PORTFÓLIO" */
+
+section.portfolio h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+/* ESTILOS DO SESSÃO "CONTATO" */
+
+section.contato {
+    padding: 30px 4%;
+}
+
+section.contato .titulo-formulario {
+    font-size: 45px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato h2 span {
+    color: #8200d5;
+    margin-left: 8px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    color: #fff;
+    background-color: #242424;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+    padding: 20px 15px;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 100px;
+    height: 65px;
+    background-color: #8200d5;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
+
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #8200d5;
+    transform: scale(1.05);
+}
